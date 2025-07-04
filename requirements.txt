@@ -1,0 +1,6 @@
+pip freeze > requirements.txt
+
+flask
+gunicorn
+python-dotenv
+auth0-python
