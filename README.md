@@ -137,3 +137,7 @@ This project showcases how to:
 
 Perfect for DevSecOps teams seeking production-level observability in cloud-native apps.
 
+### Demo Link :
+
+https://youtu.be/3hZQU2wnSDE
+
