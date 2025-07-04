@@ -24,8 +24,8 @@ This project demonstrates a **DevSecOps-ready Flask application** that integrate
 1. Go to [Auth0 Dashboard](https://manage.auth0.com/).
 2. Create a new **Application** (Regular Web App).
 3. In the settings:
-   - **Allowed Callback URLs**: `https://<your-app-name>.azurewebsites.net/callback`
-   - **Allowed Logout URLs**: `https://<your-app-name>.azurewebsites.net/logout`
+   - **Allowed Callback URLs**: `https://flask-auth0-app-assignment.azurewebsites.net/callback`
+   - **Allowed Logout URLs**: `https://flask-auth0-app-assignment.azurewebsites.net/logout`
 4. Copy the following into a `.env` file:
    ```env
    AUTH0_CLIENT_ID=<your-client-id>
@@ -117,11 +117,11 @@ To create an alert rule based on the KQL above:
 You can use this file to simulate access:
 ```
 ### Valid /protected access
-GET https://<your-app-name>.azurewebsites.net/protected
+GET https://flask-auth0-app-assignment.azurewebsites.net/protected
 Authorization: Bearer <VALID_JWT>
 
 ### Simulate unauthorized
-GET https://<your-app-name>.azurewebsites.net/protected
+GET https://flask-auth0-app-assignment.azurewebsites.net/protected
 ```
 
 # Summary
